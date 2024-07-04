@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}> <h1 className="text-4xl font-extrabold  text-center mt-8">Connected Always</h1>
+        {children}
+      
+      </body>
     </html>
   );
 }
